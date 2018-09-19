@@ -12,7 +12,7 @@ Twitch Space Game - Unity application for Twitch.  Users could join with !join i
 
 Proc Killer - C# Windows tray application that checks for and kills processes.  I created this application to automatically kill error processes that would stack up with the game Rift and cause major slowdown.
 
-Magic: The Gathering Sample Draws - PHP program that takes an apprentice deck (Common format for M:tG decks) and number of rows as input, then outputs a row of 10 randomly selected cards without replacement to simulate an initial hand (7 cards) and the next 3 draws.  The program outputs a newly randomized 10 cards based on the number of rows input into an HTML table.
+Magic: The Gathering Sample Draws - PHP program that takes an apprentice deck (Common format for M:tG decks) and number of rows as input, then outputs a row of 10 randomly selected cards without replacement to simulate an initial hand (7 cards) and the next 3 draws.  The program outputs a newly randomized 10 cards based on the number of rows input from the query string and outputs them into an HTML table.
 
 Everquest DPS Calculator - A custom damage (dps) calculator written in perl for Shadow Knights.
 

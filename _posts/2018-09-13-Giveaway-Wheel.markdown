@@ -14,6 +14,6 @@ Chroma Key
 
 ![Chroma Key](../assets/portfolio-images/0-wheel.png)
 
-Clicking the spin button plays music and after the spin is complete, pulsating the item that was won indicates the prize.  In the top left we save what was won on the last roll because I was missing which prize was won on the previous spin. There is a random number generator function to do ISK giveaways, and there are hotkeys to play sound clips for the stream.  There are a variety of different ships that can be spun.  One can also add more ships in Unity, given one has the models and textures.  There are a few camera pathing functions but they don't see much use on stream.
+Clicking the spin button plays music and spins the central ship.  After the spin is complete, we indicate the prize that was won by making it pulsate.  In the top left we save what was won on the last roll because I was missing which prize was won on the previous spin. There is a random number generator function to do ISK giveaways, and there are hotkeys to play sound clips for the stream.  There are a variety of different ships that can be spun.  One can also add more ships in Unity, given one has the models and textures.  There are a few camera pathing functions but they do not see much use on stream.
 
 
