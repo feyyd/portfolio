@@ -1,0 +1,19 @@
+---
+layout: post
+title:  Giveaway Wheel
+author: Feyd
+categories: twitch, eve, c#, unity, programming
+---
+<div class="videoWrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZnCCFtpPYkM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+<p />
+
+This is a giveaway wheel created in Unity to facilitate giveaways on Twitch.tv.  The wheel fits snugly up against the top left corner to block certain Eve UI elements and it is chroma keyed so that there is a transparency effect.
+
+Chroma Key
+
+![Chroma Key](../assets/portfolio-images/0-wheel.png)
+
+Clicking the spin button plays music and after the spin is complete, pulsating the item that was won indicates the prize.  In the top left we save what was won on the last roll because I was missing which prize was won on the previous spin. There is a random number generator function to do ISK giveaways, and there are hotkeys to play sound clips for the stream.  There are a variety of different ships that can be spun.  One can also add more ships in Unity, given one has the models and textures.  There are a few camera pathing functions but they don't see much use on stream.
+
+
