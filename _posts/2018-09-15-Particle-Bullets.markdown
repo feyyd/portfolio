@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Particle Bullets
-author: Feyd
+author: Tyler
 categories: unity, c#, programming
 ---
 Particle Bullets is a projectile system created for Unity that uses the Unity particle system.  The idea came about when creating SHMUP games for Unity;  I wanted an efficient way to create bullets for bullet hell style games.  I realized I could use the particle system as a black box and get all the desired functionality I wanted in a highly efficient manner.  Collision, pooling, grouping, and rendering is all handled by the Unity particle system.  Below are some videos and WebGL Demos.  The second demo is meant to be played on a dual stick controller, but I have added keyboard shortcuts to the demo so that one can see the functionality if lacking a gamepad.  It uses "wasd" for movement (left joystick), "okl;" for gun firing direction (right joystick), and ",." (bumpers) for weapon switching.  Gamepad testing was done exclusively with an Xbox 360 controller, but I tried to map to the most common buttons on all gamepads.  There is also a video where I go over the second demo if one would prefer to watch or does not have the ability to play the demo.
