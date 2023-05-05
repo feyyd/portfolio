@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Treasure Draft (unet)
-author: Feyd
+author: Tyler
 categories: unity, unet, c#, programming
 ---
 Treasure Draft is a multi-player card game I built for my associate.  It is a draft based game where players select cards with point values and effects.  After all cards are selected, the score is tallied to determine a winner.  We moved on to Tabletop Simulator for testing/creation as it was much more rapid development, but this is the original prototype.
