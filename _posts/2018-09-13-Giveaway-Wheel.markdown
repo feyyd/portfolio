@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Giveaway Wheel
-author: Tyler
+author: feyd
 categories: twitch, eve, c#, unity, programming
 ---
 <div class="videoWrapper">
