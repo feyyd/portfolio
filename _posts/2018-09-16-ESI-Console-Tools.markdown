@@ -1,6 +1,6 @@
 ---
 title: ESI Console Tools
-author: Tyler
+author: feyd
 layout: post
 categories: eve, c#, programming
 ---
