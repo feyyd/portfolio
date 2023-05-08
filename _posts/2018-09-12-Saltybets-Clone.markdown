@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Saltybets Clone (Pepperstake)
-author: Tyler
+author: feyd
 categories: twitch, c#, php, perl, programming
 ---
 
