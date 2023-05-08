@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Other Projects
-author: Tyler
+author: feyd
 categories: twitch, c#, php, perl, programming
 ---
 <div class="videoWrapper">
