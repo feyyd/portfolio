@@ -1,9 +1,9 @@
 ---
 layout: post
-author: tyler
+author: feyd
 title: Contact
 ---
 
 Want to talk to me? There's several ways of reaching me: 
 
-- E-mail: tylerbren at gmail dot com
+- E-mail: feydeve at gmail dot com
