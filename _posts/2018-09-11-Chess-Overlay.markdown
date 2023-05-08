@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Chess Overlay
-author: Tyler
+author: feyd
 categories: windows, c#, programming
 ---
 
