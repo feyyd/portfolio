@@ -6,11 +6,7 @@ categories: unity, c#, programming
 ---
 Particle Bullets is a projectile system created for Unity that uses the Unity particle system.  The idea came about when creating SHMUP games for Unity;  I wanted an efficient way to create bullets for bullet hell style games.  I realized I could use the particle system as a black box and get all the desired functionality I wanted in a highly efficient manner.  Collision, pooling, grouping, and rendering is all handled by the Unity particle system.  Below are some videos and WebGL Demos.  The second demo is meant to be played on a dual stick controller, but I have added keyboard shortcuts to the demo so that one can see the functionality if lacking a gamepad.  It uses "wasd" for movement (left joystick), "okl;" for gun firing direction (right joystick), and ",." (bumpers) for weapon switching.  Gamepad testing was done exclusively with an Xbox 360 controller, but I tried to map to the most common buttons on all gamepads.  There is also a video where I go over the second demo if one would prefer to watch or does not have the ability to play the demo.
 
-Demos -
-
-[WebGL Demo - Example weapons](http://www.levelsevencomputers.com/tyler/WebGLBuild/)
-
-[WebGL Demo 2 - Example levels and common use cases](http://www.levelsevencomputers.com/tyler/PBLevelBuild/)
+UPDATE:  Demos are no longer functioning due to age of Unity Builds.
 
 Particle Bullets 1.1 Features (WebGL Demo 2 Video: Example levels) -
 
@@ -57,8 +53,8 @@ Most options have a selectable input drop-down that can be set by Curve, Value, 
 
 Some options need more explanation.  When firing multiple particles, we need a split distance and angle, otherwise the particles will just overlap.  Setting distance only will result in a bar-like shot pattern that is spread out evenly by the distance provided.  Setting angle only will give a triangular spread, and setting both gives the combination.  Lifetime Adjust modifies the lifetime of a split from outside-most particle to inside-most.  This gives the resulting split pattern a V or inverse V shape.  Shot Chance was added to give variety to each shot when we have higher shot counts.  Random Beam and Shotgun in the "Example weapons" demo are examples of weapons that use this option.  Apply rotation over time will bend and twist the plane on which the particles lie, allowing for some interesting patterns, especially when used in Local Space.  XY/XZ Spread option is needed because one can create a project in multiple orientations.  The spread will grow along either the XY or the XZ axis depending on this toggle.  These two options were enough for all the use cases I had, but one could extend this option to spread along an arbitrary axis.  The particle animator can be used to animate color over the projectiles lifetime, and the World Particle Collider gives the ability to ricochet shots on impact, as well as choose which objects to collide with based on Unity's collider bit mask.  I tried my best to cover all these options in the example weapons scene, which can be seen in the "Example weapons" WebGL Demo.
 
-[WebGL Demo - Example weapons](http://www.levelsevencomputers.com/tyler/WebGLBuild/)
+UPDATE:  Demos are no longer functioning due to age of Unity builds and have been removed from this section.
 
 I find that examples are a great way to learn and understand a system, so for an update to the initial release,  I worked on an "Example levels" scene (link underneath paragraph or at top of page).  In this scene there is a mocked up UI that tracks ammo, health, score, and shield health.  A pickup system has been implemented that uses this UI.  A player object with weapon selection and movement has been created along with multiple level types: vertical/horizontal scroll and top-down camera follow/fixed.  A boss with multiple weapons and phases based on its HP is also demonstrated.  There is also a shield object that absorbs bullets and a few different enemy types.  All these features can be combined to create SHMUP games that can be extended easily.
 
-[WebGL Demo 2 - Example levels and common use cases](http://www.levelsevencomputers.com/tyler/PBLevelBuild/)
+UPDATE:  Demos are no longer functioning due to age of Unity builds and have been removed from this section.
