@@ -5,8 +5,8 @@ author: feyd
 categories: c#, unity, programming
 ---
 
-<a href="https://www.levelsevencomputers.com/projectb/paperboi/">Paperboi</a>
-
-NES clone I created to reacclimate myself with Unity.  I picked a nostalgic game to keep interest level high.  It features 3 different difficulties, although one can play beyond 3 levels if one desires.  Houses are randomly placed with random colors for variety.  There are animal obstacles, vehicles, trees, fences, delivery zones, newspaper bundles, projectile shooters.  Difficulty scales with level, adding more obstacles and changing parameters like animal speed and target rotation speed.
+<a href="https://www.levelsevencomputers.com/projectb/paperboi/">Paperboi WebGL Build</a>
+<p>
+This project is a NES clone I created to reacclimate myself with Unity.  I picked a nostalgic game to keep the interest level high.  It features 3 different difficulties, one can play beyond 3 levels if one desires, but the difficulty scaling will be maxed at level 3.  21 different houses are randomly placed with random colors for variety.  There are animal obstacles, vehicles, trees, fences, delivery zones, newspaper bundles, projectile shooters.  Difficulty scales with level by adding more obstacles and changing parameters like animal speed and target rotation speed.
 
 All assets are free to use for personal and commercial use, but most are from <a href="https://kenney.nl">Kenney.nl</a>
