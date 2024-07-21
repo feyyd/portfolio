@@ -22,7 +22,7 @@ sass:
   style: compressed
 
 # Build settings
-markdown: kramdown
+markdown: GFM
 plugins:
   - jekyll-feed
   - jekyll-paginate
