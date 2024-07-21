@@ -7,8 +7,12 @@ categories: c#, unity, programming
 
 <a href="https://www.levelsevencomputers.com/projectb/paperboi/">Paperboi WebGL Build</a>
 <p>
-This project is a NES clone I created to reacclimate myself with Unity.  I picked a nostalgic game to keep the interest level high.  It features 3 different difficulties, one can play beyond 3 levels if one desires, but the difficulty scaling will be maxed at level 3.  21 different houses are randomly placed with random colors for variety.  There are animal obstacles, vehicles, trees, fences, delivery zones, item pickups, ramps, projectile shooters.  Difficulty scales with level by adding more obstacles and changing parameters like animal speed and target rotation speed.
+This project is a NES clone I created to reacclimate myself with Unity.  I picked a nostalgic game to keep the interest level high.  It features 3 different difficulties, one can play beyond 3 levels if desired, but the difficulty scaling will be maxed at level 3.  21 different houses are randomly placed with random colors for variety.  There are animal obstacles, vehicles, trees, fences, delivery zones, item pickups, ramps, targets, and projectile shooters.  Difficulty scales with level by adding more obstacles and changing parameters like animal speed and target rotation speed.
 <p>
-The control scheme is a dual stick shooter or mouse/keyboard and the character controller interacts with 3d scenery via kinematic controls.  This control scheme isn't used much with the exception of ramps and small pavement bumps due to the nature of the original game.
+The control scheme is a dual stick shooter or mouse/keyboard and the character controller interacts with 3d scenery via kinematic controls.  Holding the "Throw Paper" button longer will throw the paper harder.
 
 All assets are free to use for personal and commercial use, but most are from <a href="https://kenney.nl">Kenney.nl</a>
+
+The following are screenshots of the features in case the WebGL build gets unhosted or one just wants to get a quick overview without having to spend a few minutes playing the game.
+
+
