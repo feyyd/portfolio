@@ -8,9 +8,8 @@ Particle Bullets is a projectile system created for Unity that uses the Unity pa
 
 UPDATE:  Demos are no longer functioning due to age of Unity Builds.
 
-Particle Bullets 1.1 Features (WebGL Demo 2 Video: Example levels) -
 
-## [Video Link:](https://youtu.be/kVRuJffnTlo)
+## [Particle Bullets 1.1 Features (WebGL Demo 2 Video: Example levels) Video Link:](https://youtu.be/kVRuJffnTlo)
 
 [![Watch the video](https://img.youtube.com/vi/kVRuJffnTlo/hqdefault.jpg)](https://youtu.be/kVRuJffnTlo)
 
