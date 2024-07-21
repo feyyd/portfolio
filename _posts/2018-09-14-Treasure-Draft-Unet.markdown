@@ -20,6 +20,6 @@ The animations in this prototype are synced with ClientRpcs that advance each an
 
 ## [Multiplayer Stub Video Link:](https://youtu.be/c77-KKiy7d8)
 
-[![Watch the video](https://img.youtube.com/vi/c77-KKiy7d8/maxresdefault.jpg)](https://youtu.be/c77-KKiy7d8)
+[![Watch the video](https://img.youtube.com/vi/c77-KKiy7d8/hqdefault.jpg)](https://youtu.be/c77-KKiy7d8)
 
 This is a stub project using unet.  It is a starting point for unet projects that covers basic multi-player functionality that can be extended.  It has player movement, mouse click spawning of network objects, and a simple network lobby.
