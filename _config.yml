@@ -7,7 +7,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Portfolio
-email: feydeve@gmail.com
+email: feydeve at gmail dot com
 description: >- 
   Project Portfolio
 baseurl: "/portfolio" 
