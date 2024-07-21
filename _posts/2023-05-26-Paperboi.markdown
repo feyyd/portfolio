@@ -15,4 +15,43 @@ All assets are free to use for personal and commercial use, but most are from <a
 
 The following are screenshots of the features in case the WebGL build gets unhosted or one just wants to get a quick overview without having to spend a few minutes playing the game.
 
+Title Screen/Instructions -
+
+![Title Screen](../assets/portfolio-images/1_Paperboi_Title.png)
+
+Simple Directions - Can give player instructions via simple camera facing labels attached to GameObjects in the scene.
+
+![Pickups, Delivery Zones](../assets/portfolio-images/2_Paperboi_Pickup_Deliver_Tutorial.png)
+
+Vehicles - 
+
+![Vehicles](../assets/portfolio-images/3_Paperboi_Vehicles.png)
+
+Death Animation - Enemies, Bike, Moving Targets/Fences also have animations but screenshots don't show it well.
+
+![4_Paperboi_Death_Animation](../assets/portfolio-images/4_Paperboi_Death_Animation.png)
+
+Throw Paper - Yellow arrow rotates around the top of player, paper will be thrown harder the longer the input is pressed.  Porch turns green when paper was thrown correctly.
+
+![5_Paperboi_Throw_Paper](../assets/portfolio-images/5_Paperboi_Throw_Paper.png)
+
+Enemies - Move towards player, can be killed by hitting with a paper.
+
+![6_Paperboi_Enemies](../assets/portfolio-images/6_Paperboi_Enemies.png)
+
+Ramps, Targets, Dirt Area - Targets can move, rotate, or be stationary.  Ramps to jump over fences or other obstacles.
+
+![7_Paperboi_Ramps_Targets_Dirt](../assets/portfolio-images/7_Paperboi_Ramps_Targets_Dirt.png)
+
+Projectile Shooters - 
+
+![8_Paperboi_Shooters](../assets/portfolio-images/8_Paperboi_Shooters.png)
+
+End Fireworks - Hard to capture in a screenshot, did my best.
+
+![9_Paperboi_End_Fireworks](../assets/portfolio-images/9_Paperboi_End_Fireworks.png)
+
+End Stats Screen -
+
+![10_Paperboi_End_Stats](../assets/portfolio-images/10_Paperboi_End_Stats.png)
 
