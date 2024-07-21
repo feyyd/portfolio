@@ -7,10 +7,8 @@ categories: unity, unet, c#, programming
 Treasure Draft is a multi-player card game I built for my associate.  It is a draft based game where players select cards with point values and effects.  After all cards are selected, the score is tallied to determine a winner.  We moved on to Tabletop Simulator for testing/creation as it was much more rapid development, but this is the original prototype.
 
 {% raw %}
-{% include "../youtube.html" id="C4xyFICt_-c" %}  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C4xyFICt_-c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {% endraw %}
-
-{% include "../youtube.html" id="C4xyFICt_-c" %}  
 
 To start a game, one must first create a game with the matchmaker or by clicking the "Play and Host" button in the lobby.  This application assumes the host is also a client, so it does not work with dedicated server option.  The lobby and game scene are separate, so we must pass any data from lobby to game scene.  In this prototype, there is just a name and color sent to the game scene, but any pre-game setup information or values can be added for pass along easily.  After a game has been created, users can enter their name and color; when at least one other player joins the pre-game lobby, and all players have selected join, the game will launch.
 
@@ -20,7 +18,8 @@ The game starts by displaying some cards that can be drafted.  Certain cards hav
 
 The animations in this prototype are synced with ClientRpcs that advance each animation's state machine.  Each client checks for mouse clicks, and if they are the active player, a Command is sent to the host to remove the card that was clicked.  The client sent Command updates SyncLists on the host, then the host sends a ClientRpc back to all clients to update their local gamestate to match that of the host.  Each client has an event log that gets updated via ClientRpc calls from the host.  Each client informs this event log of its own events by sending a Command with an event type so we know what to log.  Chat in this program displays above the user's name, but we could also implement a rolling chat similar to the event log if it were desired.
 
-{% raw %} {% include youtube.html id="c77-KKiy7d8" %}
+{% raw %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c77-KKiy7d8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {% endraw %}
 
 This is a stub project using unet.  It is a starting point for unet projects that covers basic multi-player functionality that can be extended.  It has player movement, mouse click spawning of network objects, and a simple network lobby.
