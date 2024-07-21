@@ -5,7 +5,7 @@ author: feyd
 categories: twitch, eve, c#, unity, programming
 ---
 
-## [Video Link:](https://youtu.be/ZnCCFtpPYkM)
+## [Giveaway Wheel Video Link:](https://youtu.be/ZnCCFtpPYkM)
 
 [![Watch the video](https://img.youtube.com/vi/ZnCCFtpPYkM/hqdefault.jpg)](https://youtu.be/ZnCCFtpPYkM)
 
