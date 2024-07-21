@@ -6,7 +6,7 @@ categories: unity, unet, c#, programming
 ---
 Treasure Draft is a multi-player card game I built for my associate.  It is a draft based game where players select cards with point values and effects.  After all cards are selected, the score is tallied to determine a winner.  We moved on to Tabletop Simulator for testing/creation as it was much more rapid development, but this is the original prototype.
 
-## [Video Link:](https://youtu.be/he7qryfnbgs)
+## [Treasure Draft Video Link:](https://youtu.be/he7qryfnbgs)
 
 [![Watch the video](https://img.youtube.com/vi/he7qryfnbgs/hqdefault.jpg)](https://youtu.be/he7qryfnbgs)
 
@@ -18,7 +18,7 @@ The game starts by displaying some cards that can be drafted.  Certain cards hav
 
 The animations in this prototype are synced with ClientRpcs that advance each animation's state machine.  Each client checks for mouse clicks, and if they are the active player, a Command is sent to the host to remove the card that was clicked.  The client sent Command updates SyncLists on the host, then the host sends a ClientRpc back to all clients to update their local gamestate to match that of the host.  Each client has an event log that gets updated via ClientRpc calls from the host.  Each client informs this event log of its own events by sending a Command with an event type so we know what to log.  Chat in this program displays above the user's name, but we could also implement a rolling chat similar to the event log if it were desired.
 
-## [Video Link:](https://youtu.be/c77-KKiy7d8)
+## [Multiplayer Stub Video Link:](https://youtu.be/c77-KKiy7d8)
 
 [![Watch the video](https://img.youtube.com/vi/c77-KKiy7d8/maxresdefault.jpg)](https://youtu.be/c77-KKiy7d8)
 
