@@ -6,9 +6,9 @@ categories: unity, unet, c#, programming
 ---
 Treasure Draft is a multi-player card game I built for my associate.  It is a draft based game where players select cards with point values and effects.  After all cards are selected, the score is tallied to determine a winner.  We moved on to Tabletop Simulator for testing/creation as it was much more rapid development, but this is the original prototype.
 
-<h1>Video 1:</h1>
+## [Video Link:](https://youtu.be/he7qryfnbgs)
 
-[![Watch the video](https://img.youtube.com/vi/C4xyFICt_-c/maxresdefault.jpg)](https://youtu.be/C4xyFICt_-c)
+[![Watch the video](https://img.youtube.com/vi/he7qryfnbgs/hqdefault.jpg)](https://youtu.be/he7qryfnbgs)
 
 To start a game, one must first create a game with the matchmaker or by clicking the "Play and Host" button in the lobby.  This application assumes the host is also a client, so it does not work with dedicated server option.  The lobby and game scene are separate, so we must pass any data from lobby to game scene.  In this prototype, there is just a name and color sent to the game scene, but any pre-game setup information or values can be added for pass along easily.  After a game has been created, users can enter their name and color; when at least one other player joins the pre-game lobby, and all players have selected join, the game will launch.
 
@@ -18,7 +18,7 @@ The game starts by displaying some cards that can be drafted.  Certain cards hav
 
 The animations in this prototype are synced with ClientRpcs that advance each animation's state machine.  Each client checks for mouse clicks, and if they are the active player, a Command is sent to the host to remove the card that was clicked.  The client sent Command updates SyncLists on the host, then the host sends a ClientRpc back to all clients to update their local gamestate to match that of the host.  Each client has an event log that gets updated via ClientRpc calls from the host.  Each client informs this event log of its own events by sending a Command with an event type so we know what to log.  Chat in this program displays above the user's name, but we could also implement a rolling chat similar to the event log if it were desired.
 
-<h1>Video 2:</h1>
+## [Video Link:](https://youtu.be/c77-KKiy7d8)
 
 [![Watch the video](https://img.youtube.com/vi/c77-KKiy7d8/maxresdefault.jpg)](https://youtu.be/c77-KKiy7d8)
 
