@@ -7,7 +7,7 @@ categories: python, midjourney programming
 
 # Midjourney AI Batch Tool
 
-## <a href="https://github.com/feyyd/midjourney-batch-prompt">Midjourney AI Batch Tool Github Link
+## <a href="https://github.com/feyyd/midjourney-batch-prompt">Midjourney AI Batch Tool Github Link</a>
 
 ## Features - 
 - Discord injection
