@@ -10,17 +10,21 @@ UPDATE:  Demos are no longer functioning due to age of Unity Builds.
 
 Particle Bullets 1.1 Features (WebGL Demo 2 Video: Example levels) -
 
-<div class="videoWrapper">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kVRuJffnTlo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-<p />
+## [Video Link:](https://youtu.be/kVRuJffnTlo)
+
+[![Watch the video](https://img.youtube.com/vi/c77-KKiy7d8/hqdefault.jpg)](https://youtu.be/kVRuJffnTlo)
+
 
 Some videos recorded during development - 
 
-<div class="videoWrapper">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T-8FR-2JCEw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-<div class="videoWrapper">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/d21Jz9VUPUk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-<p />
+## [Video Link:](https://youtu.be/kVRuJffnTlo)
+
+[![Watch the video](https://img.youtube.com/vi/T-8FR-2JCEw/hqdefault.jpg)](https://youtu.be/T-8FR-2JCEw)
+
+## [Video Link:](https://youtu.be/kVRuJffnTlo)
+
+[![Watch the video](https://img.youtube.com/vi/d21Jz9VUPUk/hqdefault.jpg)](https://youtu.be/d21Jz9VUPUk)
+
 
 I wanted the system to be very easy to use.  To create a weapon, one copies a weapon prefab to any game object in the scene.  The forward direction of the weapon is along the z-axis, so one orients the z axis arrow and now that weapon will shoot from where it is attached.  There are many packaged prefabs which can be seen in the "Example weapons" WebGL scene.  The user also has the ability to create their own weapons in Unity by modifying any of the parameters of a weapon. 
 
