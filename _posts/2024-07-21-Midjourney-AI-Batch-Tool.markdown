@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  Midjourney Batch Tool
+title:  Midjourney AI Batch Tool
 author: feyd
 categories: python, midjourney programming
 ---
 
-# Midjourney Batch Tool
+# Midjourney AI Batch Tool
 
-## <a href="https://github.com/feyyd/midjourney-batch-prompt">Midjourney Batch Tool Github Link
+## <a href="https://github.com/feyyd/midjourney-batch-prompt">Midjourney AI Batch Tool Github Link
 
 ## Features - 
 - Discord injection
