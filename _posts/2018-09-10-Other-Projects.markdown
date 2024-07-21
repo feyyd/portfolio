@@ -5,13 +5,15 @@ author: feyd
 categories: twitch, c#, php, perl, programming
 ---
 
+
+Twitch Space Game - A Unity application for Twitch that uses my Particle Bullets Unity asset.  Users could join with !join in Twitch chat, and buy upgrades at end of round with !buy.  User messages from Twitch chat could be displayed above their ships.  This program had IRC integration so the streamer could interact with chat from within the application.  After the join period, users would be put into the game field; their ships shot in a simple pattern similar to the old-school hockey/football shakers.  A random direction is chosen every few seconds, and bullets spray at random intervals.  Players would get score based on kills of npcs or other players, and they could upgrade their ship with the points.  It is currently in a non-functional state due to Twitch authorization changes, but above is a video of the basic game loop.
+
 ## [Twitch Space Game Video Link:](https://youtu.be/E5b7X1H8G0Q)
 
 [![Watch the video](https://img.youtube.com/vi/E5b7X1H8G0Q/hqdefault.jpg)](https://youtu.be/E5b7X1H8G0Q)
 
 <p />
 
-Twitch Space Game - A Unity application for Twitch that uses my Particle Bullets Unity asset.  Users could join with !join in Twitch chat, and buy upgrades at end of round with !buy.  User messages from Twitch chat could be displayed above their ships.  This program had IRC integration so the streamer could interact with chat from within the application.  After the join period, users would be put into the game field; their ships shot in a simple pattern similar to the old-school hockey/football shakers.  A random direction is chosen every few seconds, and bullets spray at random intervals.  Players would get score based on kills of npcs or other players, and they could upgrade their ship with the points.  It is currently in a non-functional state due to Twitch authorization changes, but above is a video of the basic game loop.
 
 ## [Multiplayer Stub Video Link:](https://youtu.be/c77-KKiy7d8)
 
