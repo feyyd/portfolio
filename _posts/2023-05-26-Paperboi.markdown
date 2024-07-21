@@ -17,9 +17,12 @@ The following are screenshots of the features in case the WebGL build gets unhos
 
 Title Screen/Instructions -
 
+
+
 ![Title Screen](../assets/portfolio-images/1_Paperboi_Title.png)
 
 Simple Directions - Can give player instructions via simple camera facing labels attached to GameObjects in the scene.
+
 
 ![Pickups, Delivery Zones](../assets/portfolio-images/2_Paperboi_Pickup_Deliver_Tutorial.png)
 
