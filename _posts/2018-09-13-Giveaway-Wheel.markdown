@@ -4,8 +4,11 @@ title:  Giveaway Wheel
 author: feyd
 categories: twitch, eve, c#, unity, programming
 ---
-<div class="videoWrapper">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZnCCFtpPYkM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+
+## [Video Link:](https://youtu.be/ZnCCFtpPYkM)
+
+[![Watch the video](https://img.youtube.com/vi/ZnCCFtpPYkM/hqdefault.jpg)](https://youtu.be/ZnCCFtpPYkM)
+
 <p />
 
 This is a giveaway wheel created in Unity to facilitate giveaways on Twitch.tv.  The wheel fits snugly up against the top left corner to block certain Eve UI elements, and it is chroma keyed so that there is a transparency effect when used with OBS (Open Broadcaster Software).
