@@ -2,7 +2,7 @@
 layout: post
 title:  Midjourney AI Batch Tool
 author: feyd
-categories: python, midjourney programming
+categories: python, midjourney, programming
 ---
 
 # Midjourney AI Batch Tool
